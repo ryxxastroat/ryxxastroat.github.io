@@ -213,7 +213,26 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+	
+	
+/* CV */
 
+	#cv {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		text-align: left;
+		padding: 1em 0em;
+		font-weight: 400;
+		font-size: 1em;
+		color: #000000;
+	}
+
+		#cv strong {
+			color: #000000;
+			font-weight: 1000
+		}
+	
 /* Container */
 
 	.container {
