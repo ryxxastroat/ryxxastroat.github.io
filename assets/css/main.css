@@ -131,6 +131,17 @@ input, select, textarea {
 		margin: 0 0 1.25em 0;
 	}
 
+	h4 {
+		font-size: 1em;
+		letter-spacing: 1px;
+		margin: 0 0 1em 0;
+		text-align: justify;
+		text-transform: none;
+		color: #000000;
+		position: relative;
+		top: 3em;	
+	}
+	
 	a {
 		-moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
@@ -2088,7 +2099,9 @@ input, select, textarea {
 	}
 
 		#features p {
-			text-align: center;
+			text-align: justify;
+			position: relative;
+			top: -2.5em;			
 		}
 
 		#features ul.actions {
@@ -2110,14 +2123,14 @@ input, select, textarea {
 		text-transform: uppercase;
 		background: url("../../images/banner.jpg");
 		background-size: cover;
-		padding: 10em 0;
+		padding: 4em 0;
 	}
 
 		#banner p {
 			font-weight: 400;
-			font-size: 2em;
+			font-size: 1em;
 			line-height: 1.5em;
-			letter-spacing: 4px;
+			letter-spacing: 2.3px;
 			text-align: center;
 			margin: 0;
 		}
