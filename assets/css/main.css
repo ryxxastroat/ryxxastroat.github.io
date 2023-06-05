@@ -132,6 +132,7 @@ input, select, textarea {
 	}
 
 	h4 {
+		font-weight: 400;
 		font-size: 1em;
 		letter-spacing: 1px;
 		margin: 0 0 1em 0;
@@ -1930,7 +1931,7 @@ input, select, textarea {
 			font-weight: 700;
 			color: #888;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-			font-size: 1em;
+			font-size: 1.1em;
 			letter-spacing: 13px;
 		}
 
