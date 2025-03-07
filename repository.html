@@ -10,6 +10,18 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+                <style>
+                   .image-container {
+                      display: flex;
+                      justify-content: space-around;
+                      gap: 80px;
+                   }
+
+                   .image-item {
+                      text-align: center;
+                   }
+
+                </style>		
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -63,8 +75,29 @@
 						<h2>Scientific code</h2>
 						<ul>
 							<li><a href="https://github.com/ryxxastroat/bumblebeecmb">Compute cosmic microwave background power spectrum</a> </li>
-							<img src="pulsar.png" alt="test">
+                                                        <div class="image-container">
+                                                           <div class="image-item">
+                                                              <img src="cmb_planck.png" alt="cmb_planck" width="600" height="300">
+                                                              <figcaption>Cosmic microwave background (CMB) observed in various radio bands. <a href="https://arxiv.org/abs/1807.06205">arXiv:1807.06205</a></figcaption>
+                                                           </div>
+                                                           <div class="image-item">
+                                                              <img src="cmb_bumblebee.png" alt="cmb_bumblebee" width="200" height="300">
+                                                              <figcaption>CMB power spectrum calculated in different theories. Paper to be released. </figcaption>
+                                                           </div>                                                           
+                                                        </div>
+							 
 							<li><a href="https://github.com/ryxxastroat/polytropicstar">Compute properties of polytropic stars</a></li>
+                                                        <div class="image-container"> 
+                                                           <div class="image-item">
+                                                              <img src="polystar_3.png" alt="polystar_3" width="240" height="300">
+                                                              <figcaption>The I-Love universal relation. <a href="https://arxiv.org/abs/2501.07184">arXiv:2501.07184</a> </figcaption>
+                                                           </div>                                                           
+                                                           <div class="image-item">
+                                                              <img src="polystar_4.png" alt="polystar_4" width="280" height="300">
+                                                              <figcaption>Test against solar-system planets and moons. <a href="https://arxiv.org/abs/2501.07184">arXiv:2501.07184</a> </figcaption>
+                                                           </div>                                                                                                                    
+                                                        </div>	
+							
 							<li><a href="https://github.com/ryxxastroat/bumblebeeEHT">Compute the spacetime metric of spherical black holes in the bumblebee gravity theory</a></li>
 							<li><a href="https://github.com/ryxxastroat/lorentz_precession">Compute gravitational waves from rotating neutron stars with breaking of Lorentz symmetry</a></li>	
 							<li><a href="https://github.com/ryxxastroat/stgbnscode">Compute properties of neutron stars</a> </li>
