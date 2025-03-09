@@ -10,6 +10,21 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+                <style>
+                   .image-container {
+                      display: flex;
+                      justify-content: space-around;
+                      gap: 80px;
+                   }
+
+                   .image-item {
+                      text-align: center;
+                   }
+                   .center {
+                      text-align: center;
+                   }
+
+                </style>		
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -63,9 +78,48 @@
 						<h2>科学代码</h2>
 						<ul>
 							<li><a href="https://github.com/ryxxastroat/bumblebeecmb">计算大黄蜂引力理论下的宇宙微波背景辐射功率谱</a> </li>
+                                                        <div class="image-container">
+                                                           <div class="image-item">
+                                                              <img src="cmb_planck.png" alt="cmb_planck" width="600" height="300">
+                                                              <figcaption>普朗克卫星在不同波段观测到的宇宙微波背景辐射（CMB）. <a href="https://arxiv.org/abs/1807.06205">arXiv:1807.06205</a></figcaption>
+                                                           </div>
+                                                           <div class="image-item">
+                                                              <img src="cmb_bumblebee.png" alt="cmb_bumblebee" width="230" height="300">
+                                                              <figcaption>在大黄蜂引力理论下计算得到的CMB功率谱. Paper to be released. </figcaption>
+                                                           </div>                                                           
+                                                        </div>
+                                                        							
 							<li><a href="https://github.com/ryxxastroat/polytropicstar">计算多方物态构成星体的性质</a></li>
+                                                        <div class="image-container"> 
+                                                           <div class="image-item">
+                                                              <img src="polystar_3.png" alt="polystar_3" width="240" height="300">
+                                                              <figcaption>I-Love普适关系. <a href="https://arxiv.org/abs/2501.07184">arXiv:2501.07184</a> </figcaption>
+                                                           </div>                                                           
+                                                           <div class="image-item">
+                                                              <img src="polystar_4.png" alt="polystar_4" width="280" height="300">
+                                                              <figcaption>用太阳系行星和卫星检验I-Love普适关系. <a href="https://arxiv.org/abs/2501.07184">arXiv:2501.07184</a> </figcaption>
+                                                           </div>                                                                                                                    
+                                                        </div>	
+                                                        							
 							<li><a href="https://github.com/ryxxastroat/bumblebeeEHT">计算大黄蜂引力理论下的球对称黑洞</a></li>
-							<li><a href="https://github.com/ryxxastroat/lorentz_precession">计算自转中子星在洛伦兹对称性破缺情况下辐射的脉冲信号和引力波信号</a></li>
+							<li><a href="https://github.com/ryxxastroat/lvprecession">计算自转中子星在洛伦兹对称性破缺情况下的引力波信号</a></li>
+                                                        <div class="image-container">
+                                                           <div class="image-item">
+                                                              <img src="plot_precession.png" alt="plot_precession" width="300" height="300">
+                                                              <figcaption>洛伦兹对称性破缺情况下自转星体自转轴的运动. <a href="https://doi.org/10.1103/PhysRevD.103.084028">https://doi.org/10.1103/PhysRevD.103.084028</a></figcaption>
+                                                           </div>
+                                                           <div class="image-item">
+                                                              <img src="plot_gw.png" alt="plot_gw" width="600" height="300">
+                                                              <figcaption>Gravitational wave from a rotating star with breaking of Lorentz symmetry. <a href="https://doi.org/10.1103/PhysRevD.103.084028">https://doi.org/10.1103/PhysRevD.103.084028</a></figcaption>
+                                                           </div>                                                           
+                                                        </div>	
+                                                        <div class="center" >
+                                                           <video width="600" controls>
+                                                           <source src="lvprecess.mp4" type="video/mp4" /> 
+                                                           </video>
+                                                           <p style="text-align: center">Animation of the axes of a rotating star with breaking of Lorentz symmetry</p>
+                                                        </div>
+                                                        							
 							<li><a href="https://github.com/ryxxastroat/stgbnscode">计算标量张量理论下中子星的性质</a> </li>						
 						</ul> 
 					</div>
